@@ -171,6 +171,8 @@ alias -s ini=mcedit
 alias -s conf=mcedit
 alias trace="traceroute"
 alias zshconf="source ~/.zshrc"
+alias zshreload="source ~/.zshrc"
+alias zshrenew="source ~/.zshrc"
 alias zshedit="mcedit ~/.zshrc"
 alias md="mkdir"
 alias rd="rmdir"
@@ -179,5 +181,7 @@ alias dirs="ls -laL | grep -E '^d'"
 alias home="cd ~"
 alias ns="nslookup"
 alias nsall="nslookup -type=any"
+alias fixkey="sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys"
+alias keyfix="sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys"
 
 
